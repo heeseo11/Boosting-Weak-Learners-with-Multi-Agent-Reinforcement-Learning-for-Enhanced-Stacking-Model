@@ -12,4 +12,4 @@ For more details, refer to the following paper:
 
 You can download the PPB-Emo dataset from the following link:
 
-[LPPB-Emo Download](https://springernature.figshare.com/collections/PPB-Emo_A_multimodal_psychological_physiological_and_behavioural_dataset_for_human_emotions_in_driving_tasks/5744171)
+[PPB-Emo Download](https://springernature.figshare.com/collections/PPB-Emo_A_multimodal_psychological_physiological_and_behavioural_dataset_for_human_emotions_in_driving_tasks/5744171)
