@@ -20,12 +20,10 @@ train = all_data[~all_data['participant'].str.contains('|'.join(split_part))]
 test = all_data[all_data['participant'].str.contains('|'.join(split_part))]
 
 # 학습 데이터와 테스트 데이터에서 불필요한 열 제거
-X_train = train.drop(['category', 'participant', 'NE_mean', 'NE_std', 'NE_min', 
-                       'NE_max', 'NE_median', 'NE_var'], axis=1)
+X_train = train.drop(['category', 'participant'], axis=1)
 y_train = train['category']
 
-X_test = test.drop(['category', 'participant', 'NE_mean', 'NE_std', 'NE_min', 
-                     'NE_max', 'NE_median', 'NE_var'], axis=1)
+X_test = test.drop(['category', 'participant'], axis=1)
 y_test = test['category']
 
 # y_train, y_test 라벨 인코딩 (한 번만 fit 사용)
