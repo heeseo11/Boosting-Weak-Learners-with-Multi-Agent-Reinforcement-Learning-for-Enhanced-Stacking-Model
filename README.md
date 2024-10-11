@@ -30,3 +30,16 @@ The reward system in this study, defined as $F1_{delta}$, reflects the performan
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/c51bf333-3622-4d50-8e86-44c1bec1ef08">
 <p>Fig. 3. Data Flow Diagram focusing on the Input and Output Data Shape</p>
 
+## Project Directory Structure
+
+The following is the structure of the project directory:
+
+
+### Files and Their Responsibilities
+
+- **mypackage/**: This folder contains the main modules for data preprocessing, model definition, and reinforcement learning logic.
+  - `OO.py`: Contains functions for loading and preprocessing data.
+  - `OO.py`: Defines the machine learning models.
+  - `OO.py`: Implements reinforcement learning algorithms and Q-learning logic.
+  
+- **train.py**: This file is used to bring all the components together and run the training process.
